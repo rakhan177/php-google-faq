@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  color: #3D3D3D;
+}
+.container a {
+  text-decoration: none;
+}
+.container .nav {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.container .nav-top {
+  width: 100%;
+  height: 50%;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  align-items: flex-end;
+}
+.container .nav-top img {
+  height: 70%;
+}
+.container .nav-top div {
+  padding-left: 15px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.container .nav-top div > a {
+  color: #3D3D3D;
+}
+.container .nav-bottom {
+  width: 100%;
+  height: 50%;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+}
+.container .nav-bottom > * {
+  margin-right: 30px;
+  font-weight: bold;
+}
+.container .nav-bottom > div:last-child {
+  height: 100%;
+  line-height: 50px;
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+.container .main {
+  width: 100%;
+  padding-top: 90px;
+  position: relative;
+  top: 100px;
+  left: 0;
+  z-index: 1;
+}
+.container .main-content {
+  width: 75%;
+  margin: 0 auto;
+  height: 100%;
+}
+.container .main-content ol {
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+.container .main-content ol ul {
+  padding-left: 20px;
+}
+.container .main-content ol li {
+  padding-top: 15px;
+}
+.container .main-content p {
+  padding-bottom: 25px;
+}
+.container .main-content h4 {
+  padding-bottom: 15px;
+  color: #000;
+}
+.container .main-content h2 {
+  color: #000;
+}
+.container .main-content-domande {
+  padding-bottom: 25px;
+  color: blue;
+}
+.container .main-content-risposte {
+  padding-bottom: 50px;
+}
+.container .footer {
+  width: 100%;
+  background-color: #f5f5f5;
+  height: 50px;
+  position: relative;
+  top: 100px;
+}
+.container .footer-content {
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .footer-content-left {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #a8929a;
+}
+.container .footer-content-left > * {
+  padding-right: 15px;
+}
